@@ -25,10 +25,9 @@ class MainActivity : AppCompatActivity() {
         recyclerView = findViewById(R.id.recyclerview)
 
         var data = ArrayList<Nama>()
+        data.add(Nama(R.drawable.foto3, "Hani Amany Elisadi", "225150209111005", "PSI-E"))
         data.add(Nama(R.drawable.foto1, "Ifadatul Khoiroh", "205150207111044", "PSI-E"))
         data.add(Nama(R.drawable.foto2, "Thana Fadhila P", "205150207111043", "PSI-E"))
-        data.add(Nama(R.drawable.foto3, "Hani Amany Elisadi", "225150209111005", "PSI-E"))
-
 
         adapter = CustomAdapter(data)
     }
